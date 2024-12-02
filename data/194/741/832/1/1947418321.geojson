@@ -2,10 +2,12 @@
   "id": 1947418321,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-01",
+    "date:cessation_upper": "2024-12-01",
     "date:inception_lower": "2024-12-01",
     "date:inception_upper": "2024-12-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-01",
+    "edtf:cessation": "2024-12-01T10:01:00Z",
+    "edtf:inception": "2024-12-01T06:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241201-A-ANZ-9206",
@@ -53,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86145136",
+      "swim:gufi": "KH11691100"
+    },
     "wof:country": "US",
     "wof:created": 1733156203,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1947418321,
     "wof:involves": [
+      1763588337,
+      1159283697,
+      1377564285,
       102527513,
       102534097,
-      1159285413,
-      1763588337,
-      1159283697
+      1159285413
     ],
-    "wof:lastmodified": 1733156203,
+    "wof:lastmodified": 1733157703,
     "wof:name": "UA1573 (IAH-SFO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

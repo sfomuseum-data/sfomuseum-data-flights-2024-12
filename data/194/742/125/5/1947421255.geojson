@@ -2,10 +2,12 @@
   "id": 1947421255,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-01",
+    "date:cessation_upper": "2024-12-01",
     "date:inception_lower": "2024-12-01",
     "date:inception_upper": "2024-12-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-01",
+    "edtf:cessation": "2024-12-01T17:53:00Z",
+    "edtf:inception": "2024-12-01T13:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "VIR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:base_flight_id": "20241201-D-VIR-1794",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N812DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86160125",
+      "swim:gufi": "KO46262100"
+    },
     "wof:country": "US",
     "wof:created": 1733156980,
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947421255,
     "wof:involves": [
+      1377564285,
       102525635,
       102527513,
       1159284261,
       1763588251,
       1159285483
     ],
-    "wof:lastmodified": 1733156980,
+    "wof:lastmodified": 1733157687,
     "wof:name": "DL772 (SFO-DTW)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947418841,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-01",
+    "date:cessation_upper": "2024-12-01",
     "date:inception_lower": "2024-12-01",
     "date:inception_upper": "2024-12-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-01",
+    "edtf:cessation": "2024-12-01T09:24:00Z",
+    "edtf:inception": "2024-12-01T07:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "86146710"
+    },
     "wof:country": "US",
     "wof:created": 1733156337,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -46,12 +56,12 @@
     ],
     "wof:id": 1947418841,
     "wof:involves": [
+      1159289871,
       102527513,
       102531189,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1733156337,
+    "wof:lastmodified": 1733157703,
     "wof:name": "UA8183 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

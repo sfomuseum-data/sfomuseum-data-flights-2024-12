@@ -2,10 +2,12 @@
   "id": 1947418499,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-01",
+    "date:cessation_upper": "2024-12-01",
     "date:inception_lower": "2024-12-01",
     "date:inception_upper": "2024-12-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-01",
+    "edtf:cessation": "2024-12-01T21:42:05Z",
+    "edtf:inception": "2024-12-01T15:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 24.105522999999998,
     "geom:longitude": -103.9582495,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102537565,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86168315",
+      "swim:gufi": "KL46532100"
+    },
     "wof:country": "US",
     "wof:created": 1733156249,
     "wof:geomhash": "71bb587b8c9d0b605ad2c4f0a951ea9c",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1947418499,
     "wof:involves": [
-      102527513,
       102537565,
       1159285413,
-      1947304131
+      1947304131,
+      1528104577,
+      102527513
     ],
-    "wof:lastmodified": 1733156249,
+    "wof:lastmodified": 1733157675,
     "wof:name": "UA2349 (LIR-SFO)",
     "wof:parent_id": 1947304131,
     "wof:placetype": "custom",
