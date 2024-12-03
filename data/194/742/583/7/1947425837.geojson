@@ -2,10 +2,12 @@
   "id": 1947425837,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-12-02",
-    "date:inception_upper": "2024-12-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-02",
+    "date:cessation_lower": "2024-12-03",
+    "date:cessation_upper": "2024-12-03",
+    "date:inception_lower": "2024-12-03",
+    "date:inception_upper": "2024-12-03",
+    "edtf:cessation": "2024-12-03T07:04:00Z",
+    "edtf:inception": "2024-12-03T03:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241202-A-BAW-5322",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N864NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86221517",
+      "swim:gufi": "KG05103300"
+    },
     "wof:country": "US",
     "wof:created": 1733241659,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947425837,
     "wof:involves": [
-      102527513,
       102533631,
       1159283849,
       1947304385,
-      1159284021
+      1159284021,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1733241659,
+    "wof:lastmodified": 1733244155,
     "wof:name": "AA2544 (ORD-SFO)",
     "wof:parent_id": 1947304385,
     "wof:placetype": "custom",

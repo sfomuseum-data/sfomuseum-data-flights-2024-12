@@ -2,10 +2,12 @@
   "id": 1947427647,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-03",
+    "date:cessation_upper": "2024-12-03",
     "date:inception_lower": "2024-12-02",
     "date:inception_upper": "2024-12-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-02",
+    "edtf:cessation": "2024-12-03T03:07:02Z",
+    "edtf:inception": "2024-12-02T15:13:15Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CZ",
     "flysfo:date": "2024-12-02",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +54,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86252717"
+    },
     "wof:country": "US",
     "wof:created": 1733242176,
     "wof:geomhash": "247e1e318adb65668d4614fd3ca74ae2",
@@ -88,7 +97,7 @@
       1159284165,
       1947304077
     ],
-    "wof:lastmodified": 1733242176,
+    "wof:lastmodified": 1733244121,
     "wof:name": "CZ659 (CAN-SFO)",
     "wof:parent_id": 1947304077,
     "wof:placetype": "custom",

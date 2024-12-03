@@ -2,10 +2,12 @@
   "id": 1947431501,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-12-02",
-    "date:inception_upper": "2024-12-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-02",
+    "date:cessation_lower": "2024-12-03",
+    "date:cessation_upper": "2024-12-03",
+    "date:inception_lower": "2024-12-03",
+    "date:inception_upper": "2024-12-03",
+    "edtf:cessation": "2024-12-03T10:13:36Z",
+    "edtf:inception": "2024-12-03T05:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:base_flight_id": "20241202-D-AAL-7562",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N474AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86227016"
+    },
     "wof:country": "US",
     "wof:created": 1733243287,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1947431501,
     "wof:involves": [
+      1377564285,
       102530049,
       102527513,
       1159283813,
       1947304273,
       1159283849
     ],
-    "wof:lastmodified": 1733243287,
+    "wof:lastmodified": 1733244134,
     "wof:name": "AS384 (SFO-EWR)",
     "wof:parent_id": 1947304273,
     "wof:placetype": "custom",
