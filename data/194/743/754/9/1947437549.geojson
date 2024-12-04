@@ -2,10 +2,12 @@
   "id": 1947437549,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-04",
+    "date:cessation_upper": "2024-12-04",
     "date:inception_lower": "2024-12-03",
     "date:inception_upper": "2024-12-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-03",
+    "edtf:cessation": "2024-12-04T02:41:52Z",
+    "edtf:inception": "2024-12-03T20:59:22Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:date": "2024-12-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N967JT",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "86376096",
+      "swim:gufi": "KN64340300"
+    },
     "wof:country": "US",
     "wof:created": 1733328701,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947437549,
     "wof:involves": [
-      102527513,
       102534365,
       1159284583,
-      -1
+      1159289411,
+      102527513
     ],
-    "wof:lastmodified": 1733328701,
+    "wof:lastmodified": 1733330185,
     "wof:name": "B61515 (JFK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
