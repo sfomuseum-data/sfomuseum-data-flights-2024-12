@@ -2,10 +2,12 @@
   "id": 1947444691,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-04",
+    "date:cessation_upper": "2024-12-04",
     "date:inception_lower": "2024-12-04",
     "date:inception_upper": "2024-12-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-04",
+    "edtf:cessation": "2024-12-04T20:08:18Z",
+    "edtf:inception": "2024-12-04T18:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241204-A-KLM-7843",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N3763D",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86450899",
+      "swim:gufi": "KU63661400"
+    },
     "wof:country": "US",
     "wof:created": 1733414955,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947444691,
     "wof:involves": [
+      1947304675,
+      1159284613,
+      1159289871,
       102527513,
       102527363,
-      1159284261,
-      1947304675,
-      1159284613
+      1159284261
     ],
-    "wof:lastmodified": 1733414955,
+    "wof:lastmodified": 1733416759,
     "wof:name": "DL902 (SLC-SFO)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",
