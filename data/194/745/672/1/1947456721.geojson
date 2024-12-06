@@ -2,10 +2,12 @@
   "id": 1947456721,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-05",
+    "date:cessation_upper": "2024-12-05",
     "date:inception_lower": "2024-12-05",
     "date:inception_upper": "2024-12-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-05",
+    "edtf:cessation": "2024-12-05T12:41:00Z",
+    "edtf:inception": "2024-12-05T08:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2024-12-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "F9",
+    "icao:aircraft": "A20N",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61227,
     "lbl:longitude": -122.390079,
+    "sfomuseum:aircraft_id": 1377564295,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N341FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86502607",
+      "swim:gufi": "KO25206600"
+    },
     "wof:country": "US",
     "wof:created": 1733502510,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947456721,
     "wof:involves": [
-      102526927,
       102527513,
       1159284401,
-      1947304101
+      1947304101,
+      1377564295,
+      102526927
     ],
-    "wof:lastmodified": 1733502510,
+    "wof:lastmodified": 1733503116,
     "wof:name": "F91448 (SFO-ATL)",
     "wof:parent_id": 1947304101,
     "wof:placetype": "custom",

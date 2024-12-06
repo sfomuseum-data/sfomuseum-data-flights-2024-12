@@ -2,10 +2,12 @@
   "id": 1947451917,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-05",
+    "date:cessation_upper": "2024-12-05",
     "date:inception_lower": "2024-12-05",
     "date:inception_upper": "2024-12-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-05",
+    "edtf:cessation": "2024-12-05T06:54:06Z",
+    "edtf:inception": "2024-12-05T02:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -139.40440999999998,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241205-A-FJI-5833",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86493015",
+      "swim:gufi": "KO19470500"
+    },
     "wof:country": "US",
     "wof:created": 1733501232,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1947451917,
     "wof:involves": [
+      1528104577,
       102527513,
       102532929,
       1159283813,
       1947304297,
       1159283717
     ],
-    "wof:lastmodified": 1733501232,
+    "wof:lastmodified": 1733503076,
     "wof:name": "AS878 (OGG-SFO)",
     "wof:parent_id": 1947304297,
     "wof:placetype": "custom",

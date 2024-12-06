@@ -2,10 +2,12 @@
   "id": 1947454249,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-12-05",
-    "date:inception_upper": "2024-12-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-05",
+    "date:cessation_lower": "2024-12-06",
+    "date:cessation_upper": "2024-12-06",
+    "date:inception_lower": "2024-12-06",
+    "date:inception_upper": "2024-12-06",
+    "edtf:cessation": "2024-12-06T03:31:48Z",
+    "edtf:inception": "2024-12-06T02:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "THY",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241205-A-THY-9588",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N54241",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86570406",
+      "swim:gufi": "KS76942500"
+    },
     "wof:country": "US",
     "wof:created": 1733501859,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -92,9 +105,10 @@
       102532251,
       1159285413,
       1947304513,
-      1159285391
+      1159285391,
+      1159289871
     ],
-    "wof:lastmodified": 1733501859,
+    "wof:lastmodified": 1733503090,
     "wof:name": "UA644 (PDX-SFO)",
     "wof:parent_id": 1947304513,
     "wof:placetype": "custom",
