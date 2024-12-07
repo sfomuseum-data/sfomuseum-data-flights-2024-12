@@ -2,10 +2,12 @@
   "id": 1947458827,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-07",
+    "date:cessation_upper": "2024-12-07",
     "date:inception_lower": "2024-12-06",
     "date:inception_upper": "2024-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-06",
+    "edtf:cessation": "2024-12-07T02:32:00Z",
+    "edtf:inception": "2024-12-06T21:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2024-12-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528659,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N991AU",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86644389",
+      "swim:gufi": "KT75396601"
+    },
     "wof:country": "US",
     "wof:created": 1733587268,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
@@ -86,9 +99,10 @@
       102527513,
       102528659,
       1159283849,
-      1947304277
+      1947304277,
+      1159289411
     ],
-    "wof:lastmodified": 1733587268,
+    "wof:lastmodified": 1733590426,
     "wof:name": "AA1004 (CLT-SFO)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",

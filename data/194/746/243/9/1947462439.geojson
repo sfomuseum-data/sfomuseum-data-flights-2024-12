@@ -2,10 +2,12 @@
   "id": 1947462439,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-06",
+    "date:cessation_upper": "2024-12-06",
     "date:inception_lower": "2024-12-06",
     "date:inception_upper": "2024-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-06",
+    "edtf:cessation": "2024-12-06T13:50:00Z",
+    "edtf:inception": "2024-12-06T01:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 25.086782500000005,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B788",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241206-A-DLH-8973",
@@ -53,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86579189",
+      "swim:gufi": "KO44760600"
+    },
     "wof:country": "US",
     "wof:created": 1733588686,
     "wof:geomhash": "e151466e5466f7dbf4486a1eac82455b",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1947462439,
     "wof:involves": [
+      1947304151,
+      1159286015,
+      1159289995,
       102527513,
       102552387,
-      1159285413,
-      1947304151,
-      1159286015
+      1159285413
     ],
-    "wof:lastmodified": 1733588686,
+    "wof:lastmodified": 1733590465,
     "wof:name": "UA731 (CHC-SFO)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

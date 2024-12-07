@@ -2,10 +2,12 @@
   "id": 1947462215,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-06",
+    "date:cessation_upper": "2024-12-06",
     "date:inception_lower": "2024-12-06",
     "date:inception_upper": "2024-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-06",
+    "edtf:cessation": "2024-12-06T15:36:00Z",
+    "edtf:inception": "2024-12-06T14:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N33289",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86610352",
+      "swim:gufi": "KL43699600"
+    },
     "wof:country": "US",
     "wof:created": 1733588599,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947462215,
     "wof:involves": [
+      1159289871,
       102527513,
       102533795,
       1159285413,
       1947304513
     ],
-    "wof:lastmodified": 1733588599,
+    "wof:lastmodified": 1733590463,
     "wof:name": "UA3932 (LAX-SFO)",
     "wof:parent_id": 1947304513,
     "wof:placetype": "custom",

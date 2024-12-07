@@ -2,10 +2,12 @@
   "id": 1947466157,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-06",
+    "date:cessation_upper": "2024-12-06",
     "date:inception_lower": "2024-12-06",
     "date:inception_upper": "2024-12-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-06",
+    "edtf:cessation": "2024-12-06T07:50:00Z",
+    "edtf:inception": "2024-12-06T06:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:base_flight_id": "20241206-D-ACA-4122",
@@ -53,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86591907",
+      "swim:gufi": "KO09629600"
+    },
     "wof:country": "US",
     "wof:created": 1733590139,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1947466157,
     "wof:involves": [
+      1159283597,
+      1528104575,
       102533575,
       102527513,
       1159285413,
-      1947304619,
-      1159283597
+      1947304619
     ],
-    "wof:lastmodified": 1733590139,
+    "wof:lastmodified": 1733590455,
     "wof:name": "UA2409 (SFO-ONT)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",
