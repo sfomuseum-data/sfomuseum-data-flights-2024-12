@@ -2,10 +2,12 @@
   "id": 1947473833,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-07",
+    "date:cessation_upper": "2024-12-07",
     "date:inception_lower": "2024-12-07",
     "date:inception_upper": "2024-12-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-07",
+    "edtf:cessation": "2024-12-07T18:46:27Z",
+    "edtf:inception": "2024-12-07T14:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 34.052368,
     "geom:longitude": -104.7779705,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529397,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N33103",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86754638",
+      "swim:gufi": "KO47250700"
+    },
     "wof:country": "US",
     "wof:created": 1733676321,
     "wof:geomhash": "ef2918ce20b8be929fc0d916d0edf585",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947473833,
     "wof:involves": [
+      1159289939,
       102529397,
       102527513,
       1159285413,
       1947304487
     ],
-    "wof:lastmodified": 1733676321,
+    "wof:lastmodified": 1733676600,
     "wof:name": "UA3916 (SFO-PNS)",
     "wof:parent_id": 1947304487,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947468599,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-12-07",
-    "date:inception_upper": "2024-12-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-07",
+    "date:cessation_lower": "2024-12-08",
+    "date:cessation_upper": "2024-12-08",
+    "date:inception_lower": "2024-12-08",
+    "date:inception_upper": "2024-12-08",
+    "edtf:cessation": "2024-12-08T07:52:00Z",
+    "edtf:inception": "2024-12-08T06:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241207-A-AMX-4301",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N382DA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86681429"
+    },
     "wof:country": "US",
     "wof:created": 1733674315,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1947468599,
     "wof:involves": [
+      1159289871,
       102527513,
       102533269,
       1159284261,
       1947304677,
       1159283539
     ],
-    "wof:lastmodified": 1733674315,
+    "wof:lastmodified": 1733676581,
     "wof:name": "DL1012 (SEA-SFO)",
     "wof:parent_id": 1947304677,
     "wof:placetype": "custom",

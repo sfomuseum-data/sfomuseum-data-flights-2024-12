@@ -2,10 +2,12 @@
   "id": 1947468849,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-07",
+    "date:cessation_upper": "2024-12-07",
     "date:inception_lower": "2024-12-07",
     "date:inception_upper": "2024-12-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-07",
+    "edtf:cessation": "2024-12-07T23:50:33Z",
+    "edtf:inception": "2024-12-07T12:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "BF",
     "flysfo:date": "2024-12-07",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86777276"
+    },
     "wof:country": "US",
     "wof:created": 1733674409,
     "wof:geomhash": "ccdcde8e2753acf4845b350f07bc56a7",
@@ -88,7 +93,7 @@
       1377649073,
       1947304079
     ],
-    "wof:lastmodified": 1733674409,
+    "wof:lastmodified": 1733676584,
     "wof:name": "BF5714 (ORY-SFO)",
     "wof:parent_id": 1947304079,
     "wof:placetype": "custom",
