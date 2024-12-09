@@ -2,10 +2,12 @@
   "id": 1947478189,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-08",
+    "date:cessation_upper": "2024-12-08",
     "date:inception_lower": "2024-12-08",
     "date:inception_upper": "2024-12-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-08",
+    "edtf:cessation": "2024-12-08T19:28:00Z",
+    "edtf:inception": "2024-12-08T18:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525535,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N77588",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "86784908",
+      "swim:gufi": "KO58167100"
+    },
     "wof:country": "US",
     "wof:created": 1733761608,
     "wof:geomhash": "a4d4dc469296ca0f5ad383dc766835b1",
@@ -49,9 +62,9 @@
       102527513,
       102525535,
       1159285413,
-      -1
+      1528104577
     ],
-    "wof:lastmodified": 1733761608,
+    "wof:lastmodified": 1733763454,
     "wof:name": "UA8120 (RNO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
