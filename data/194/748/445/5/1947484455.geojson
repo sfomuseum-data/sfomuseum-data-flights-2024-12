@@ -2,10 +2,12 @@
   "id": 1947484455,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-12-09",
-    "date:inception_upper": "2024-12-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-09",
+    "date:cessation_lower": "2024-12-10",
+    "date:cessation_upper": "2024-12-10",
+    "date:inception_lower": "2024-12-10",
+    "date:inception_upper": "2024-12-10",
+    "edtf:cessation": "2024-12-10T06:53:00Z",
+    "edtf:inception": "2024-12-10T03:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "icao:base_airline": "VIR",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241209-A-VIR-4904",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N365DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86841466",
+      "swim:gufi": "KP06961301"
+    },
     "wof:country": "US",
     "wof:created": 1733847333,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947484455,
     "wof:involves": [
-      102527513,
-      102531131,
       1159284261,
       1947304675,
-      1159285483
+      1159285483,
+      1159289411,
+      102527513,
+      102531131
     ],
-    "wof:lastmodified": 1733847333,
+    "wof:lastmodified": 1733850223,
     "wof:name": "DL2089 (MSP-SFO)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",
