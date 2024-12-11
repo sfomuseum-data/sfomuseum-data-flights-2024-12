@@ -2,10 +2,12 @@
   "id": 1947497599,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-10",
+    "date:cessation_upper": "2024-12-10",
     "date:inception_lower": "2024-12-10",
     "date:inception_upper": "2024-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-10",
+    "edtf:cessation": "2024-12-10T05:31:09Z",
+    "edtf:inception": "2024-12-10T04:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:base_flight_id": "20241210-D-CMP-1449",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N17550",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86923998",
+      "swim:gufi": "KO03742300"
+    },
     "wof:country": "US",
     "wof:created": 1733935912,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -88,13 +97,14 @@
     ],
     "wof:id": 1947497599,
     "wof:involves": [
+      1528104577,
       102533927,
       102527513,
       1159285413,
       1947304515,
       1159284211
     ],
-    "wof:lastmodified": 1733935912,
+    "wof:lastmodified": 1733936290,
     "wof:name": "UA2107 (SFO-EUG)",
     "wof:parent_id": 1947304515,
     "wof:placetype": "custom",

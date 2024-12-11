@@ -2,10 +2,12 @@
   "id": 1947491931,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-10",
+    "date:cessation_upper": "2024-12-10",
     "date:inception_lower": "2024-12-10",
     "date:inception_upper": "2024-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-10",
+    "edtf:cessation": "2024-12-10T22:45:00Z",
+    "edtf:inception": "2024-12-10T22:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2024-12-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.490859,
     "geom:longitude": -122.14984899999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527529,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N929AK",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "87047771"
+    },
     "wof:country": "US",
     "wof:created": 1733933390,
     "wof:geomhash": "5aa704d308ccde2b747329ebb6ffcf42",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1947491931,
     "wof:involves": [
-      102527513,
       102527529,
       1159283813,
-      -1
+      1528104577,
+      102527513
     ],
-    "wof:lastmodified": 1733933390,
+    "wof:lastmodified": 1733936296,
     "wof:name": "AS9806 (SJC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

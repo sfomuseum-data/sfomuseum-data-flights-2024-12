@@ -2,10 +2,12 @@
   "id": 1947496255,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-10",
+    "date:cessation_upper": "2024-12-10",
     "date:inception_lower": "2024-12-10",
     "date:inception_upper": "2024-12-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-10",
+    "edtf:cessation": "2024-12-10T21:52:00Z",
+    "edtf:inception": "2024-12-10T18:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2024-12-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.635332,
     "geom:longitude": -108.8251435,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531775,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N652DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "86964210",
+      "swim:gufi": "KO61843300"
+    },
     "wof:country": "US",
     "wof:created": 1733935306,
     "wof:geomhash": "659cd7ad5e5126045522d61820d30c49",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947496255,
     "wof:involves": [
-      102531775,
       102527513,
       1159284261,
-      -1
+      1159289939,
+      102531775
     ],
-    "wof:lastmodified": 1733935306,
+    "wof:lastmodified": 1733936286,
     "wof:name": "DL8926 (SFO-HOU)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
