@@ -2,10 +2,12 @@
   "id": 1947501265,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-11",
+    "date:cessation_upper": "2024-12-11",
     "date:inception_lower": "2024-12-11",
     "date:inception_upper": "2024-12-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-11",
+    "edtf:cessation": "2024-12-11T05:17:49Z",
+    "edtf:inception": "2024-12-11T00:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "86997285"
+    },
     "wof:country": "US",
     "wof:created": 1734020487,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -94,7 +99,7 @@
       1947304475,
       1159283597
     ],
-    "wof:lastmodified": 1734020487,
+    "wof:lastmodified": 1734022364,
     "wof:name": "UA1141 (HNL-SFO)",
     "wof:parent_id": 1947304475,
     "wof:placetype": "custom",

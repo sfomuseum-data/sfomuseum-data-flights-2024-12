@@ -2,10 +2,12 @@
   "id": 1947498443,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-11",
+    "date:cessation_upper": "2024-12-11",
     "date:inception_lower": "2024-12-11",
     "date:inception_upper": "2024-12-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-11",
+    "edtf:cessation": "2024-12-11T18:58:00Z",
+    "edtf:inception": "2024-12-11T17:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "AAL",
     "icao:base_airline": "JAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241211-A-JAL-7552",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N821AW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87045333"
+    },
     "wof:country": "US",
     "wof:created": 1734019318,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1947498443,
     "wof:involves": [
+      1159289407,
       102527513,
       102533795,
       1159283849,
       1947304317,
       1159284563
     ],
-    "wof:lastmodified": 1734019318,
+    "wof:lastmodified": 1734022359,
     "wof:name": "AA637 (LAX-SFO)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

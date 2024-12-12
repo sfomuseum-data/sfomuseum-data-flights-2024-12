@@ -2,10 +2,12 @@
   "id": 1947500035,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-11",
+    "date:cessation_upper": "2024-12-11",
     "date:inception_lower": "2024-12-11",
     "date:inception_upper": "2024-12-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-11",
+    "edtf:cessation": "2024-12-11T08:08:00Z",
+    "edtf:inception": "2024-12-11T06:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "VIR",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241211-A-VIR-4510",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N369NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87010125"
+    },
     "wof:country": "US",
     "wof:created": 1734019992,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1947500035,
     "wof:involves": [
+      1947304673,
+      1159285483,
+      1159289407,
       102527513,
       102527363,
-      1159284261,
-      1947304673,
-      1159285483
+      1159284261
     ],
-    "wof:lastmodified": 1734019992,
+    "wof:lastmodified": 1734022358,
     "wof:name": "DL1091 (SLC-SFO)",
     "wof:parent_id": 1947304673,
     "wof:placetype": "custom",
