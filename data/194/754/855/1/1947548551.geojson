@@ -2,10 +2,12 @@
   "id": 1947548551,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-17",
+    "date:cessation_upper": "2024-12-17",
     "date:inception_lower": "2024-12-17",
     "date:inception_upper": "2024-12-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-17",
+    "edtf:cessation": "2024-12-17T23:06:21Z",
+    "edtf:inception": "2024-12-17T21:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2024-12-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "F9",
+    "icao:aircraft": "A21N",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N615FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87574534",
+      "swim:gufi": "KS74085300"
+    },
     "wof:country": "US",
     "wof:created": 1734538538,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947548551,
     "wof:involves": [
+      1377564297,
       102527513,
       102532251,
       1159284401,
       1947304081
     ],
-    "wof:lastmodified": 1734538538,
+    "wof:lastmodified": 1734541108,
     "wof:name": "F93361 (PDX-SFO)",
     "wof:parent_id": 1947304081,
     "wof:placetype": "custom",

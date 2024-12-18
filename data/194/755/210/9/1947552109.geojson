@@ -2,10 +2,12 @@
   "id": 1947552109,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-17",
+    "date:cessation_upper": "2024-12-17",
     "date:inception_lower": "2024-12-17",
     "date:inception_upper": "2024-12-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-17",
+    "edtf:cessation": "2024-12-17T15:35:00Z",
+    "edtf:inception": "2024-12-17T14:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20241217-D-AMX-4169",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N361NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87537029",
+      "swim:gufi": "KO47462302"
+    },
     "wof:country": "US",
     "wof:created": 1734540095,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947552109,
     "wof:involves": [
+      1159289407,
       102527363,
       102527513,
       1159284261,
       1947304673,
       1159283539
     ],
-    "wof:lastmodified": 1734540095,
+    "wof:lastmodified": 1734541108,
     "wof:name": "DL1331 (SFO-SLC)",
     "wof:parent_id": 1947304673,
     "wof:placetype": "custom",

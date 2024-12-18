@@ -2,10 +2,12 @@
   "id": 1947553759,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-12-17",
-    "date:inception_upper": "2024-12-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-17",
+    "date:cessation_lower": "2024-12-18",
+    "date:cessation_upper": "2024-12-18",
+    "date:inception_lower": "2024-12-18",
+    "date:inception_upper": "2024-12-18",
+    "edtf:cessation": "2024-12-18T11:36:00Z",
+    "edtf:inception": "2024-12-18T08:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:base_flight_id": "20241217-D-ANZ-9194",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N213UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87521260",
+      "swim:gufi": "KO24869400"
+    },
     "wof:country": "US",
     "wof:created": 1734540817,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947553759,
     "wof:involves": [
+      1159289985,
       102534097,
       102527513,
       1159285413,
       1947304475,
       1159283697
     ],
-    "wof:lastmodified": 1734540817,
+    "wof:lastmodified": 1734541126,
     "wof:name": "UA505 (SFO-IAH)",
     "wof:parent_id": 1947304475,
     "wof:placetype": "custom",

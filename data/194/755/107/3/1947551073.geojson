@@ -2,10 +2,12 @@
   "id": 1947551073,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-17",
+    "date:cessation_upper": "2024-12-17",
     "date:inception_lower": "2024-12-17",
     "date:inception_upper": "2024-12-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-17",
+    "edtf:cessation": "2024-12-17T22:26:02Z",
+    "edtf:inception": "2024-12-17T05:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2024-12-17",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87517405"
+    },
     "wof:country": "US",
     "wof:created": 1734539646,
     "wof:geomhash": "142a7e9d13c268eeb70ef8e16df288c7",
@@ -88,7 +93,7 @@
       1159283649,
       1947304097
     ],
-    "wof:lastmodified": 1734539646,
+    "wof:lastmodified": 1734541100,
     "wof:name": "AI176 (SFO-BLR)",
     "wof:parent_id": 1947304097,
     "wof:placetype": "custom",

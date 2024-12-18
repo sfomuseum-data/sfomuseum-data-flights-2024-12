@@ -2,10 +2,12 @@
   "id": 1947552083,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-17",
+    "date:cessation_upper": "2024-12-17",
     "date:inception_lower": "2024-12-17",
     "date:inception_upper": "2024-12-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-17",
+    "edtf:cessation": "2024-12-17T21:43:18Z",
+    "edtf:inception": "2024-12-17T07:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CX",
     "flysfo:date": "2024-12-17",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87519982"
+    },
     "wof:country": "US",
     "wof:created": 1734540081,
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
@@ -88,7 +93,7 @@
       1159284127,
       1947304085
     ],
-    "wof:lastmodified": 1734540081,
+    "wof:lastmodified": 1734541108,
     "wof:name": "CX873 (SFO-HKG)",
     "wof:parent_id": 1947304085,
     "wof:placetype": "custom",
