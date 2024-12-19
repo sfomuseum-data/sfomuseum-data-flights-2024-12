@@ -2,10 +2,12 @@
   "id": 1947555823,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-18",
+    "date:cessation_upper": "2024-12-18",
     "date:inception_lower": "2024-12-18",
     "date:inception_upper": "2024-12-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-18",
+    "edtf:cessation": "2024-12-18T17:38:28Z",
+    "edtf:inception": "2024-12-18T07:37:52Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CI",
     "flysfo:date": "2024-12-18",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "87688586"
+    },
     "wof:country": "US",
     "wof:created": 1734624643,
     "wof:geomhash": "07bfd75b358269393c92373b424876ce",
@@ -51,7 +56,7 @@
       1159284153,
       -1
     ],
-    "wof:lastmodified": 1734624643,
+    "wof:lastmodified": 1734627278,
     "wof:name": "CI5346 (TPE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1947561341,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-18",
+    "date:cessation_upper": "2024-12-18",
     "date:inception_lower": "2024-12-18",
     "date:inception_upper": "2024-12-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-18",
+    "edtf:cessation": "2024-12-18T23:48:39Z",
+    "edtf:inception": "2024-12-18T22:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.2977885,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527733,
     "sfomuseum:base_flight_id": "20241218-D-ACA-3996",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N852UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87661517",
+      "swim:gufi": "KO65885400"
+    },
     "wof:country": "US",
     "wof:created": 1734626880,
     "wof:geomhash": "5c4ab4afb4473393075e7e0145a9edb2",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947561341,
     "wof:involves": [
+      1159283597,
+      1159289407,
       102527733,
       102527513,
       1159285413,
-      1947304603,
-      1159283597
+      1947304603
     ],
-    "wof:lastmodified": 1734626880,
+    "wof:lastmodified": 1734627277,
     "wof:name": "UA1692 (SFO-BOI)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

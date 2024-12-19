@@ -2,10 +2,12 @@
   "id": 1947561807,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-18",
+    "date:cessation_upper": "2024-12-18",
     "date:inception_lower": "2024-12-18",
     "date:inception_upper": "2024-12-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-18",
+    "edtf:cessation": "2024-12-18T21:39:00Z",
+    "edtf:inception": "2024-12-18T16:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.234314499999996,
     "geom:longitude": -99.70629299999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 1746879047,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27334",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "87632470",
+      "swim:gufi": "KO51102400"
+    },
     "wof:country": "US",
     "wof:created": 1734627070,
     "wof:geomhash": "df4d5906f2523703f9da91c779be1785",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947561807,
     "wof:involves": [
+      1528104575,
       1746879047,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1734627070,
+    "wof:lastmodified": 1734627283,
     "wof:name": "UA8164 (SFO-DCA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
