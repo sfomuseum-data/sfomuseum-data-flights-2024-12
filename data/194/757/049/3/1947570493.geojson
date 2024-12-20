@@ -2,10 +2,12 @@
   "id": 1947570493,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-19",
+    "date:cessation_upper": "2024-12-19",
     "date:inception_lower": "2024-12-19",
     "date:inception_upper": "2024-12-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-19",
+    "edtf:cessation": "2024-12-19T20:47:21Z",
+    "edtf:inception": "2024-12-19T07:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87691764"
+    },
     "wof:country": "US",
     "wof:created": 1734713668,
     "wof:geomhash": "2816398c66be3da27e7024f224ecf0ab",
@@ -94,7 +99,7 @@
       1947304153,
       1159285749
     ],
-    "wof:lastmodified": 1734713668,
+    "wof:lastmodified": 1734713839,
     "wof:name": "UA96 (SFO-BNE)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",

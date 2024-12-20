@@ -2,10 +2,12 @@
   "id": 1947570463,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-19",
+    "date:cessation_upper": "2024-12-19",
     "date:inception_lower": "2024-12-19",
     "date:inception_upper": "2024-12-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-19",
+    "edtf:cessation": "2024-12-19T21:05:09Z",
+    "edtf:inception": "2024-12-19T07:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87691835"
+    },
     "wof:country": "US",
     "wof:created": 1734713657,
     "wof:geomhash": "148b50b9c1c42c575a8cdcaf5b598e8f",
@@ -94,7 +99,7 @@
       1947304159,
       1159286015
     ],
-    "wof:lastmodified": 1734713657,
+    "wof:lastmodified": 1734713838,
     "wof:name": "UA863 (SFO-SYD)",
     "wof:parent_id": 1947304159,
     "wof:placetype": "custom",

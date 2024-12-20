@@ -2,10 +2,12 @@
   "id": 1947569159,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-20",
+    "date:cessation_upper": "2024-12-20",
     "date:inception_lower": "2024-12-19",
     "date:inception_upper": "2024-12-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-19",
+    "edtf:cessation": "2024-12-20T09:12:50Z",
+    "edtf:inception": "2024-12-19T23:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "KL",
     "flysfo:date": "2024-12-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.9663905,
     "geom:longitude": -58.794018,
     "iata:airline": "KL",
+    "icao:aircraft": "B772",
     "icao:airline": "KLM",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159284613,
     "sfomuseum:arrival_id": 102542801,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "PHBQN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "87812430"
+    },
     "wof:country": "US",
     "wof:created": 1734713161,
     "wof:geomhash": "b03e5f5c78933bb0f626aa81ed57f330",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1947569159,
     "wof:involves": [
-      102542801,
-      102527513,
       1159284613,
-      -1
+      1159289985,
+      102542801,
+      102527513
     ],
-    "wof:lastmodified": 1734713161,
+    "wof:lastmodified": 1734713860,
     "wof:name": "KL282 (SFO-AMS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

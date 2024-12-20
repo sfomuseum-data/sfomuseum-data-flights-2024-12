@@ -2,10 +2,12 @@
   "id": 1947565837,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-19",
+    "date:cessation_upper": "2024-12-19",
     "date:inception_lower": "2024-12-19",
     "date:inception_upper": "2024-12-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-19",
+    "edtf:cessation": "2024-12-19T09:20:00Z",
+    "edtf:inception": "2024-12-19T08:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N77544",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +53,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87780180",
+      "swim:gufi": "KL22833500"
+    },
     "wof:country": "US",
     "wof:created": 1734711837,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -83,12 +92,13 @@
     ],
     "wof:id": 1947565837,
     "wof:involves": [
+      1528104577,
       102527513,
       102533795,
       1159285413,
       1947304483
     ],
-    "wof:lastmodified": 1734711837,
+    "wof:lastmodified": 1734713848,
     "wof:name": "UA3916 (LAX-SFO)",
     "wof:parent_id": 1947304483,
     "wof:placetype": "custom",

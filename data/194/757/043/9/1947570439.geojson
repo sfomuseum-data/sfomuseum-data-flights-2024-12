@@ -2,10 +2,12 @@
   "id": 1947570439,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-19",
+    "date:cessation_upper": "2024-12-19",
     "date:inception_lower": "2024-12-19",
     "date:inception_upper": "2024-12-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-19",
+    "edtf:cessation": "2024-12-19T21:39:11Z",
+    "edtf:inception": "2024-12-19T20:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.612295,
     "geom:longitude": -116.5547415,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534217,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N876UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "87741908",
+      "swim:gufi": "KO65498500"
+    },
     "wof:country": "US",
     "wof:created": 1734713647,
     "wof:geomhash": "9f2aefec298b0356dc0b4065c5b61f73",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947570439,
     "wof:involves": [
+      1159289407,
       102534217,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1734713647,
+    "wof:lastmodified": 1734713838,
     "wof:name": "UA8140 (SFO-JAC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
