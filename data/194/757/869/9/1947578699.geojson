@@ -2,10 +2,12 @@
   "id": 1947578699,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-20",
+    "date:cessation_upper": "2024-12-20",
     "date:inception_lower": "2024-12-20",
     "date:inception_upper": "2024-12-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-20",
+    "edtf:cessation": "2024-12-20T07:54:54Z",
+    "edtf:inception": "2024-12-20T06:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87783127"
+    },
     "wof:country": "US",
     "wof:created": 1734799981,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -94,7 +99,7 @@
       1947304515,
       1159283597
     ],
-    "wof:lastmodified": 1734799981,
+    "wof:lastmodified": 1734800352,
     "wof:name": "UA2218 (SFO-LAS)",
     "wof:parent_id": 1947304515,
     "wof:placetype": "custom",

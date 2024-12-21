@@ -2,10 +2,12 @@
   "id": 1947572773,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-12-20",
-    "date:inception_upper": "2024-12-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-20",
+    "date:cessation_lower": "2024-12-21",
+    "date:cessation_upper": "2024-12-21",
+    "date:inception_lower": "2024-12-21",
+    "date:inception_upper": "2024-12-21",
+    "edtf:cessation": "2024-12-21T08:29:00Z",
+    "edtf:inception": "2024-12-21T03:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "LAN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241220-A-LAN-6332",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N543DE",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87856643",
+      "swim:gufi": "KB79550600"
+    },
     "wof:country": "US",
     "wof:created": 1734797664,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947572773,
     "wof:involves": [
-      102527513,
-      102530741,
       1159284261,
       1763588251,
-      1159285641
+      1159285641,
+      1377564297,
+      102527513,
+      102530741
     ],
-    "wof:lastmodified": 1734797664,
+    "wof:lastmodified": 1734800328,
     "wof:name": "DL475 (BOS-SFO)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",
