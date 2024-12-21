@@ -1,0 +1,72 @@
+{
+  "id": 1947578827,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-12-20",
+    "date:inception_upper": "2024-12-20",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-12-20",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2024-12-20",
+    "flysfo:estimated_timestamp": 1734729420,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA3903",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-TUS",
+    "flysfo:scheduled_timestamp": 1734727500,
+    "flysfo:timestamp": 1734729420,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,32.119362,-110.946818,37.617990",
+    "geom:latitude": 34.868676,
+    "geom:longitude": -116.6588805,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527853,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20241220-D-UAL-3903",
+    "sfomuseum:flight_number": [
+      "UAL3903",
+      "UA3903"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1734800029,
+    "wof:geomhash": "6716e4c7ca0e3c1891c385118d042906",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1947578827,
+        "flight_id": 1947578827
+      }
+    ],
+    "wof:id": 1947578827,
+    "wof:involves": [
+      102527853,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1734800029,
+    "wof:name": "UA3903 (SFO-TUS)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-12",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    32.119362,
+    -110.946818,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-110.946818,32.119362]],"type":"MultiPoint"}
+}
