@@ -2,10 +2,12 @@
   "id": 1947585071,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-12-21",
-    "date:inception_upper": "2024-12-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-21",
+    "date:cessation_lower": "2024-12-22",
+    "date:cessation_upper": "2024-12-22",
+    "date:inception_lower": "2024-12-22",
+    "date:inception_upper": "2024-12-22",
+    "edtf:cessation": "2024-12-22T10:16:39Z",
+    "edtf:inception": "2024-12-22T05:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:base_flight_id": "20241221-D-AAL-7562",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N952AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "87879715",
+      "swim:gufi": "KO14594100"
+    },
     "wof:country": "US",
     "wof:created": 1734885332,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -92,9 +105,10 @@
       102527513,
       1159283813,
       1947304311,
-      1159283849
+      1159283849,
+      1528104577
     ],
-    "wof:lastmodified": 1734885332,
+    "wof:lastmodified": 1734886437,
     "wof:name": "AS384 (SFO-EWR)",
     "wof:parent_id": 1947304311,
     "wof:placetype": "custom",

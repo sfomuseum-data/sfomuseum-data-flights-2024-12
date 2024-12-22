@@ -2,10 +2,12 @@
   "id": 1947585415,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-21",
+    "date:cessation_upper": "2024-12-21",
     "date:inception_lower": "2024-12-21",
     "date:inception_upper": "2024-12-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-21",
+    "edtf:cessation": "2024-12-21T19:53:00Z",
+    "edtf:inception": "2024-12-21T18:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MU",
     "flysfo:date": "2024-12-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "MU",
+    "icao:aircraft": "B77W",
     "icao:airline": "CES",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159284157,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "B2025",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88002863"
+    },
     "wof:country": "US",
     "wof:created": 1734885456,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1947585415,
     "wof:involves": [
+      1947304075,
+      1159289993,
       102533795,
       102527513,
-      1159284157,
-      1947304075
+      1159284157
     ],
-    "wof:lastmodified": 1734885456,
+    "wof:lastmodified": 1734886437,
     "wof:name": "MU583 (SFO-LAX)",
     "wof:parent_id": 1947304075,
     "wof:placetype": "custom",
