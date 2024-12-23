@@ -2,10 +2,12 @@
   "id": 1947595817,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-22",
+    "date:cessation_upper": "2024-12-22",
     "date:inception_lower": "2024-12-22",
     "date:inception_upper": "2024-12-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-22",
+    "edtf:cessation": "2024-12-22T22:49:00Z",
+    "edtf:inception": "2024-12-22T18:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.846425,
     "geom:longitude": -101.2547305,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530841,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2136U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88007992",
+      "swim:gufi": "KO53542100"
+    },
     "wof:country": "US",
     "wof:created": 1734973016,
     "wof:geomhash": "2155b19e54308f477f2a379762b2f6c8",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947595817,
     "wof:involves": [
+      1947304455,
+      1159289993,
       102530841,
       102527513,
-      1159285413,
-      1947304455
+      1159285413
     ],
-    "wof:lastmodified": 1734973016,
+    "wof:lastmodified": 1734973368,
     "wof:name": "UA3772 (SFO-FLL)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",
