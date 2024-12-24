@@ -2,10 +2,12 @@
   "id": 1947600067,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-23",
+    "date:cessation_upper": "2024-12-23",
     "date:inception_lower": "2024-12-23",
     "date:inception_upper": "2024-12-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-23",
+    "edtf:cessation": "2024-12-23T10:32:36Z",
+    "edtf:inception": "2024-12-23T00:44:42Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88169187"
+    },
     "wof:country": "US",
     "wof:created": 1735057671,
     "wof:geomhash": "a641cfa97e5d709c9877b45a6ec29f09",
@@ -94,7 +99,7 @@
       1947304147,
       1159283875
     ],
-    "wof:lastmodified": 1735057671,
+    "wof:lastmodified": 1735060097,
     "wof:name": "UA34 (KIX-SFO)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",

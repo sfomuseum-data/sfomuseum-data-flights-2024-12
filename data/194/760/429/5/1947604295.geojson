@@ -2,10 +2,12 @@
   "id": 1947604295,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-24",
+    "date:cessation_upper": "2024-12-24",
     "date:inception_lower": "2024-12-23",
     "date:inception_upper": "2024-12-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-23",
+    "edtf:cessation": "2024-12-24T00:37:00Z",
+    "edtf:inception": "2024-12-23T19:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N18119",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88128437",
+      "swim:gufi": "KO60259200"
+    },
     "wof:country": "US",
     "wof:created": 1735059734,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947604295,
     "wof:involves": [
+      1159289939,
       102533997,
       102527513,
       1159285413,
       1947304457
     ],
-    "wof:lastmodified": 1735059734,
+    "wof:lastmodified": 1735060133,
     "wof:name": "UA3023 (SFO-HNL)",
     "wof:parent_id": 1947304457,
     "wof:placetype": "custom",
