@@ -2,10 +2,12 @@
   "id": 1947611755,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-25",
+    "date:cessation_upper": "2024-12-25",
     "date:inception_lower": "2024-12-24",
     "date:inception_upper": "2024-12-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-24",
+    "edtf:cessation": "2024-12-25T03:16:22Z",
+    "edtf:inception": "2024-12-24T22:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.0754675,
     "geom:longitude": -102.06817749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533509,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17337",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88190454",
+      "swim:gufi": "KO68276300"
+    },
     "wof:country": "US",
     "wof:created": 1735145010,
     "wof:geomhash": "faeea62a404843145345d63bcb6a7990",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947611755,
     "wof:involves": [
+      1947304617,
+      1528104575,
       102533509,
       102527513,
-      1159285413,
-      1947304617
+      1159285413
     ],
-    "wof:lastmodified": 1735145010,
+    "wof:lastmodified": 1735145286,
     "wof:name": "UA354 (SFO-RSW)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",
