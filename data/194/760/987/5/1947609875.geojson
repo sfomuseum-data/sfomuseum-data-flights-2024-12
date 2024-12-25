@@ -1,0 +1,72 @@
+{
+  "id": 1947609875,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-12-24",
+    "date:inception_upper": "2024-12-24",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-12-24",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2024-12-24",
+    "flysfo:estimated_timestamp": 1735050060,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AS310",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-FAT",
+    "flysfo:scheduled_timestamp": 1735049580,
+    "flysfo:timestamp": 1735050060,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,36.768728,-119.721272,37.617990",
+    "geom:latitude": 37.193359,
+    "geom:longitude": -121.0461075,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102530717,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20241224-D-ASA-310",
+    "sfomuseum:flight_number": [
+      "ASA310",
+      "AS310"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1735144325,
+    "wof:geomhash": "7027f9178c7d77a5f6f9a377b7a1bb37",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1947609875,
+        "flight_id": 1947609875
+      }
+    ],
+    "wof:id": 1947609875,
+    "wof:involves": [
+      102530717,
+      102527513,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1735144325,
+    "wof:name": "AS310 (SFO-FAT)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-12",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    36.768728,
+    -119.721272,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-119.721272,36.768728]],"type":"MultiPoint"}
+}
