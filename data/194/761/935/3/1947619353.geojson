@@ -2,10 +2,12 @@
   "id": 1947619353,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-26",
+    "date:cessation_upper": "2024-12-26",
     "date:inception_lower": "2024-12-25",
     "date:inception_upper": "2024-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-25",
+    "edtf:cessation": "2024-12-26T00:25:00Z",
+    "edtf:inception": "2024-12-25T19:54:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N35953",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "88246458",
+      "swim:gufi": "KO67676400"
+    },
     "wof:country": "US",
     "wof:created": 1735231691,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -49,9 +62,9 @@
       102530049,
       102527513,
       1159285413,
-      -1
+      1159293215
     ],
-    "wof:lastmodified": 1735231691,
+    "wof:lastmodified": 1735231988,
     "wof:name": "UA3927 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

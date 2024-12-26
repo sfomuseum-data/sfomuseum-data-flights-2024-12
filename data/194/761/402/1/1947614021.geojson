@@ -2,10 +2,12 @@
   "id": 1947614021,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-26",
+    "date:cessation_upper": "2024-12-26",
     "date:inception_lower": "2024-12-25",
     "date:inception_upper": "2024-12-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-25",
+    "edtf:cessation": "2024-12-26T00:35:09Z",
+    "edtf:inception": "2024-12-25T17:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CM",
     "flysfo:date": "2024-12-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 23.344675,
     "geom:longitude": -100.87722099999999,
     "iata:airline": "CM",
+    "icao:aircraft": "B39M",
     "icao:airline": "CMP",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159284211,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102547051,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +56,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88230874"
+    },
     "wof:country": "US",
     "wof:created": 1735229605,
     "wof:geomhash": "a24fa29091ad40e8c2dcacd18340610c",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 1947614021,
     "wof:involves": [
-      102527513,
-      102547051,
       1159284211,
-      1947304081
+      1947304081,
+      1528104577,
+      102527513,
+      102547051
     ],
-    "wof:lastmodified": 1735229605,
+    "wof:lastmodified": 1735231993,
     "wof:name": "CM408 (PTY-SFO)",
     "wof:parent_id": 1947304081,
     "wof:placetype": "custom",
