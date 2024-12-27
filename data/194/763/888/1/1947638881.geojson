@@ -2,10 +2,12 @@
   "id": 1947638881,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-26",
+    "date:cessation_upper": "2024-12-26",
     "date:inception_lower": "2024-12-26",
     "date:inception_upper": "2024-12-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-26",
+    "edtf:cessation": "2024-12-26T23:29:00Z",
+    "edtf:inception": "2024-12-26T22:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.9389005,
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530507,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N465UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88295834",
+      "swim:gufi": "KS70826500"
+    },
     "wof:country": "US",
     "wof:created": 1735316596,
     "wof:geomhash": "e570a09b358444cf621c068c13b8dbc0",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947638881,
     "wof:involves": [
+      1159292085,
       102527513,
       102530507,
       1159285413,
       1947304525
     ],
-    "wof:lastmodified": 1735316596,
+    "wof:lastmodified": 1735318514,
     "wof:name": "UA2262 (RDM-SFO)",
     "wof:parent_id": 1947304525,
     "wof:placetype": "custom",

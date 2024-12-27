@@ -2,10 +2,12 @@
   "id": 1947637753,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-26",
+    "date:cessation_upper": "2024-12-26",
     "date:inception_lower": "2024-12-26",
     "date:inception_upper": "2024-12-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-26",
+    "edtf:cessation": "2024-12-26T12:51:15Z",
+    "edtf:inception": "2024-12-26T08:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "HA",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88259912"
+    },
     "wof:country": "US",
     "wof:created": 1735316179,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -94,7 +102,7 @@
       1947304095,
       1159283813
     ],
-    "wof:lastmodified": 1735316179,
+    "wof:lastmodified": 1735318496,
     "wof:name": "HA54 (HNL-SFO)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",

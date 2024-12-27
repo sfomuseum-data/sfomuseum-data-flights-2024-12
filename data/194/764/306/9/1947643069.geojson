@@ -2,10 +2,12 @@
   "id": 1947643069,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-26",
+    "date:cessation_upper": "2024-12-26",
     "date:inception_lower": "2024-12-26",
     "date:inception_upper": "2024-12-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-26",
+    "edtf:cessation": "2024-12-26T23:20:00Z",
+    "edtf:inception": "2024-12-26T21:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:base_flight_id": "20241226-D-ANA-7306",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N17335",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88294207",
+      "swim:gufi": "KO68215500"
+    },
     "wof:country": "US",
     "wof:created": 1735318134,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1947643069,
     "wof:involves": [
-      102526751,
       102527513,
       1159285413,
       1947304519,
-      1159283875
+      1159283875,
+      1528104575,
+      102526751
     ],
-    "wof:lastmodified": 1735318134,
+    "wof:lastmodified": 1735318505,
     "wof:name": "UA2153 (SFO-PHX)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",
