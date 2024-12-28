@@ -2,10 +2,12 @@
   "id": 1947644593,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-28",
+    "date:cessation_upper": "2024-12-28",
     "date:inception_lower": "2024-12-27",
     "date:inception_upper": "2024-12-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-27",
+    "edtf:cessation": "2024-12-28T04:15:00Z",
+    "edtf:inception": "2024-12-27T23:38:17Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AM",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88378168"
+    },
     "wof:country": "US",
     "wof:created": 1735401987,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -94,7 +102,7 @@
       1947304095,
       1159284261
     ],
-    "wof:lastmodified": 1735401987,
+    "wof:lastmodified": 1735404958,
     "wof:name": "AM664 (MEX-SFO)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",

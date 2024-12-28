@@ -2,10 +2,12 @@
   "id": 1947645817,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-28",
+    "date:cessation_upper": "2024-12-28",
     "date:inception_lower": "2024-12-27",
     "date:inception_upper": "2024-12-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-27",
+    "edtf:cessation": "2024-12-28T03:10:30Z",
+    "edtf:inception": "2024-12-27T15:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "LH",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88337356"
+    },
     "wof:country": "US",
     "wof:created": 1735402449,
     "wof:geomhash": "eba9741d16611c9af3d962416d546de7",
@@ -94,7 +102,7 @@
       1947304137,
       1159283697
     ],
-    "wof:lastmodified": 1735402449,
+    "wof:lastmodified": 1735404973,
     "wof:name": "LH458 (MUC-SFO)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",
