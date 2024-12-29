@@ -2,10 +2,12 @@
   "id": 1947654343,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-28",
+    "date:cessation_upper": "2024-12-28",
     "date:inception_lower": "2024-12-28",
     "date:inception_upper": "2024-12-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-28",
+    "edtf:cessation": "2024-12-28T08:48:49Z",
+    "edtf:inception": "2024-12-28T06:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2024-12-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "88396771"
+    },
     "wof:country": "US",
     "wof:created": 1735489002,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -46,12 +56,12 @@
     ],
     "wof:id": 1947654343,
     "wof:involves": [
+      1159289939,
       102527513,
       102531189,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1735489002,
+    "wof:lastmodified": 1735491894,
     "wof:name": "DL8923 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
