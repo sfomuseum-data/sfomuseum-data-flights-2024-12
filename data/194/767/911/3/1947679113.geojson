@@ -2,10 +2,12 @@
   "id": 1947679113,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-29",
+    "date:cessation_upper": "2024-12-29",
     "date:inception_lower": "2024-12-29",
     "date:inception_upper": "2024-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-29",
+    "edtf:cessation": "2024-12-29T12:30:00Z",
+    "edtf:inception": "2024-12-29T07:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:base_flight_id": "20241229-D-CMP-2876",
@@ -53,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88481885",
+      "swim:gufi": "KO18861100"
+    },
     "wof:country": "US",
     "wof:created": 1735577945,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -92,9 +100,10 @@
       102527513,
       1159285413,
       1947304531,
-      1159284211
+      1159284211,
+      1528104577
     ],
-    "wof:lastmodified": 1735577945,
+    "wof:lastmodified": 1735578472,
     "wof:name": "UA1369 (SFO-MIA)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",

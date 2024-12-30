@@ -2,10 +2,12 @@
   "id": 1947673421,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-30",
+    "date:cessation_upper": "2024-12-30",
     "date:inception_lower": "2024-12-29",
     "date:inception_upper": "2024-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-29",
+    "edtf:cessation": "2024-12-30T05:17:00Z",
+    "edtf:inception": "2024-12-29T23:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "ITY",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241229-A-ITY-3290",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N172DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88533238",
+      "swim:gufi": "KN77160100"
+    },
     "wof:country": "US",
     "wof:created": 1735575419,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1947673421,
     "wof:involves": [
-      102527513,
-      102534365,
       1159284261,
       1763588251,
-      1763699293
+      1763699293,
+      1159289965,
+      102527513,
+      102534365
     ],
-    "wof:lastmodified": 1735575419,
+    "wof:lastmodified": 1735578478,
     "wof:name": "DL670 (JFK-SFO)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

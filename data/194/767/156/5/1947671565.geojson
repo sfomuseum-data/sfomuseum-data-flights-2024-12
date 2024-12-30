@@ -2,10 +2,12 @@
   "id": 1947671565,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-29",
+    "date:cessation_upper": "2024-12-29",
     "date:inception_lower": "2024-12-29",
     "date:inception_upper": "2024-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-29",
+    "edtf:cessation": "2024-12-29T19:51:00Z",
+    "edtf:inception": "2024-12-29T15:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241229-A-BAW-6996",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N315RJ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88499754",
+      "swim:gufi": "KG48193100"
+    },
     "wof:country": "US",
     "wof:created": 1735574551,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -92,9 +105,10 @@
       102533631,
       1159283849,
       1947304283,
-      1159284021
+      1159284021,
+      1528104575
     ],
-    "wof:lastmodified": 1735574551,
+    "wof:lastmodified": 1735578441,
     "wof:name": "AA2429 (ORD-SFO)",
     "wof:parent_id": 1947304283,
     "wof:placetype": "custom",

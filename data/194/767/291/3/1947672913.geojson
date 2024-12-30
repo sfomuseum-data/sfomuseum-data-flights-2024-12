@@ -2,10 +2,12 @@
   "id": 1947672913,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-29",
+    "date:cessation_upper": "2024-12-29",
     "date:inception_lower": "2024-12-29",
     "date:inception_upper": "2024-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-29",
+    "edtf:cessation": "2024-12-29T20:51:09Z",
+    "edtf:inception": "2024-12-29T14:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2024-12-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 24.105522999999998,
     "geom:longitude": -103.9582495,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102537565,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "88508085",
+      "swim:gufi": "KL68606100"
+    },
     "wof:country": "US",
     "wof:created": 1735575193,
     "wof:geomhash": "71bb587b8c9d0b605ad2c4f0a951ea9c",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 1947672913,
     "wof:involves": [
-      102527513,
       102537565,
       1159283813,
-      -1
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1735575193,
+    "wof:lastmodified": 1735578449,
     "wof:name": "AS9201 (LIR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

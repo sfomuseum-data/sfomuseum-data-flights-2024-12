@@ -2,10 +2,12 @@
   "id": 1947679671,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-29",
+    "date:cessation_upper": "2024-12-29",
     "date:inception_lower": "2024-12-29",
     "date:inception_upper": "2024-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-29",
+    "edtf:cessation": "2024-12-29T22:54:55Z",
+    "edtf:inception": "2024-12-29T20:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17264",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "88519279",
+      "swim:gufi": "KO64985100"
+    },
     "wof:country": "US",
     "wof:created": 1735578191,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947679671,
     "wof:involves": [
+      1528104575,
       102521851,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1735578191,
+    "wof:lastmodified": 1735578489,
     "wof:name": "UA8189 (SFO-AUS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

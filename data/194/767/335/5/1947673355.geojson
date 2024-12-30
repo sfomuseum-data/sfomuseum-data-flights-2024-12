@@ -2,10 +2,12 @@
   "id": 1947673355,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-30",
+    "date:cessation_upper": "2024-12-30",
     "date:inception_lower": "2024-12-29",
     "date:inception_upper": "2024-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-29",
+    "edtf:cessation": "2024-12-30T03:57:29Z",
+    "edtf:inception": "2024-12-29T17:25:48Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CX",
     "flysfo:date": "2024-12-29",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +54,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88509468"
+    },
     "wof:country": "US",
     "wof:created": 1735575391,
     "wof:geomhash": "300aa0b6d6fd1fa7d09bf740f0e0c265",
@@ -88,7 +97,7 @@
       1159284127,
       1947304093
     ],
-    "wof:lastmodified": 1735575391,
+    "wof:lastmodified": 1735578450,
     "wof:name": "CX872 (HKG-SFO)",
     "wof:parent_id": 1947304093,
     "wof:placetype": "custom",

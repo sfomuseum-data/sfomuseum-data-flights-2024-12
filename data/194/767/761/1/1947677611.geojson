@@ -2,10 +2,12 @@
   "id": 1947677611,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-30",
+    "date:cessation_upper": "2024-12-30",
     "date:inception_lower": "2024-12-29",
     "date:inception_upper": "2024-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-29",
+    "edtf:cessation": "2024-12-30T00:02:00Z",
+    "edtf:inception": "2024-12-29T21:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:base_flight_id": "20241229-D-KAL-6740",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N867DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88524678"
+    },
     "wof:country": "US",
     "wof:created": 1735577280,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1947677611,
     "wof:involves": [
-      102531131,
       102527513,
       1159284261,
       1947304679,
-      1159284625
+      1159284625,
+      1377564285,
+      102531131
     ],
-    "wof:lastmodified": 1735577280,
+    "wof:lastmodified": 1735578485,
     "wof:name": "DL2078 (SFO-MSP)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",

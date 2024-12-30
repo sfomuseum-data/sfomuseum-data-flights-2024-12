@@ -2,10 +2,12 @@
   "id": 1947679669,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-12-29",
-    "date:inception_upper": "2024-12-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-29",
+    "date:cessation_lower": "2024-12-30",
+    "date:cessation_upper": "2024-12-30",
+    "date:inception_lower": "2024-12-30",
+    "date:inception_upper": "2024-12-30",
+    "edtf:cessation": "2024-12-30T09:34:00Z",
+    "edtf:inception": "2024-12-30T04:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17128",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "88477572",
+      "swim:gufi": "KO08760200"
+    },
     "wof:country": "US",
     "wof:created": 1735578190,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1947679669,
     "wof:involves": [
-      102530741,
-      102527513,
       1159285413,
-      -1
+      1159289939,
+      102530741,
+      102527513
     ],
-    "wof:lastmodified": 1735578190,
+    "wof:lastmodified": 1735578475,
     "wof:name": "UA8188 (SFO-BOS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
