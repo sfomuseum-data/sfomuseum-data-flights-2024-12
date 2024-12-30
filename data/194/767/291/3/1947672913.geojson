@@ -1,0 +1,72 @@
+{
+  "id": 1947672913,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-12-29",
+    "date:inception_upper": "2024-12-29",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-12-29",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2024-12-29",
+    "flysfo:estimated_timestamp": 1735505400,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AS9201",
+    "flysfo:gate": "",
+    "flysfo:journey": "LIR-SFO",
+    "flysfo:scheduled_timestamp": 1735505460,
+    "flysfo:timestamp": 1735505460,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,10.593056,-85.545556,37.617990",
+    "geom:latitude": 24.105522999999998,
+    "geom:longitude": -103.9582495,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102537565,
+    "sfomuseum:flight_id": "20241229-A-ASA-9201",
+    "sfomuseum:flight_number": [
+      "ASA9201",
+      "AS9201"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1735575193,
+    "wof:geomhash": "71bb587b8c9d0b605ad2c4f0a951ea9c",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1947672913,
+        "flight_id": 1947672913
+      }
+    ],
+    "wof:id": 1947672913,
+    "wof:involves": [
+      102527513,
+      102537565,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1735575193,
+    "wof:name": "AS9201 (LIR-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-12",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    10.593056,
+    -85.545556,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-85.545556,10.593056],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
