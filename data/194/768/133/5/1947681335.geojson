@@ -2,10 +2,12 @@
   "id": 1947681335,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-12-30",
-    "date:inception_upper": "2024-12-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-30",
+    "date:cessation_lower": "2024-12-31",
+    "date:cessation_upper": "2024-12-31",
+    "date:inception_lower": "2024-12-31",
+    "date:inception_upper": "2024-12-31",
+    "edtf:cessation": "2024-12-31T05:08:09Z",
+    "edtf:inception": "2024-12-31T04:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241230-A-HAL-6137",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N278AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88552110"
+    },
     "wof:country": "US",
     "wof:created": 1735661454,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1947681335,
     "wof:involves": [
+      1159284489,
+      1377564285,
       102527513,
       102533795,
       1159283813,
-      1947304297,
-      1159284489
+      1947304297
     ],
-    "wof:lastmodified": 1735661454,
+    "wof:lastmodified": 1735664302,
     "wof:name": "AS1053 (LAX-SFO)",
     "wof:parent_id": 1947304297,
     "wof:placetype": "custom",

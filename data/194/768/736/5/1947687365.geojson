@@ -2,10 +2,12 @@
   "id": 1947687365,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-30",
+    "date:cessation_upper": "2024-12-30",
     "date:inception_lower": "2024-12-30",
     "date:inception_upper": "2024-12-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-30",
+    "edtf:cessation": "2024-12-30T16:34:00Z",
+    "edtf:inception": "2024-12-30T15:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-12-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8930S",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88575613",
+      "swim:gufi": "KO48523200"
+    },
     "wof:country": "US",
     "wof:created": 1735663771,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -86,9 +99,10 @@
       102527209,
       102527513,
       1159285591,
-      1947304265
+      1947304265,
+      1528104575
     ],
-    "wof:lastmodified": 1735663771,
+    "wof:lastmodified": 1735664323,
     "wof:name": "WN4674 (SFO-LAS)",
     "wof:parent_id": 1947304265,
     "wof:placetype": "custom",
