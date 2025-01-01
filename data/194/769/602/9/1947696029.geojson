@@ -2,10 +2,12 @@
   "id": 1947696029,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-01-01",
+    "date:cessation_upper": "2025-01-01",
     "date:inception_lower": "2024-12-31",
     "date:inception_upper": "2024-12-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-31",
+    "edtf:cessation": "2025-01-01T11:15:49Z",
+    "edtf:inception": "2024-12-31T21:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-12-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.348278,
     "geom:longitude": -0.5688954999999964,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102551487,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2352U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88678264",
+      "swim:gufi": "KO64398300"
+    },
     "wof:country": "US",
     "wof:created": 1735751197,
     "wof:geomhash": "ec4a8fe4d0e09d37ae50bf109072b003",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1947696029,
     "wof:involves": [
+      1159289993,
       102551487,
       102527513,
       1159285413,
       1947304459
     ],
-    "wof:lastmodified": 1735751197,
+    "wof:lastmodified": 1735751467,
     "wof:name": "UA871 (SFO-TPE)",
     "wof:parent_id": 1947304459,
     "wof:placetype": "custom",

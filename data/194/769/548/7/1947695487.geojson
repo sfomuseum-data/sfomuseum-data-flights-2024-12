@@ -2,10 +2,12 @@
   "id": 1947695487,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-12-31",
+    "date:cessation_upper": "2024-12-31",
     "date:inception_lower": "2024-12-31",
     "date:inception_upper": "2024-12-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-12-31",
+    "edtf:cessation": "2024-12-31T19:50:28Z",
+    "edtf:inception": "2024-12-31T15:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.315247,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528181,
     "sfomuseum:base_flight_id": "20241231-D-ANZ-9391",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N14231",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "88647679",
+      "swim:gufi": "KO41218300"
+    },
     "wof:country": "US",
     "wof:created": 1735750944,
     "wof:geomhash": "d7bea1763df143b6882335af1c301bcf",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1763588337,
-      1159283697
+      1159283697,
+      1159289871
     ],
-    "wof:lastmodified": 1735750944,
+    "wof:lastmodified": 1735751463,
     "wof:name": "UA1398 (SFO-PIT)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",
